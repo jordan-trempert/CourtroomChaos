@@ -1,6 +1,7 @@
-const express = require("express");
-const bodyParser = require("body-parser");
-const { Groq } = require("groq"); // Make sure to import Groq correctly
+import express from "express";
+import bodyParser from "body-parser";
+import { Groq } from "groq"; // Ensure Groq is also available as an ES module
+
 const app = express();
 const GROQ_API_KEY = GROQ_API_KEY; // Define your API key
 
