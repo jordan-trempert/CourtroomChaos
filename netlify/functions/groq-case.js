@@ -1,3 +1,5 @@
+const Groq = require("groq-sdk"); // Ensure this line is included at the top
+
 exports.handler = async function (event, context) {
     console.log("Received request:", event);
     const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
