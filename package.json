@@ -1,0 +1,21 @@
+{
+  "name": "courtroom-chaos",
+  "version": "1.0.0",
+  "description": "A comedic AI Judge game",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "dev": "netlify dev",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "groq-sdk": "^1.0.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "netlify-cli": "^13.0.0"
+  },
+  "keywords": [],
+  "author": "Stardom Game Studios",
+  "license": "MIT"
+}
